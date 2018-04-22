@@ -3,6 +3,7 @@ from id3 import ID3
 from stat import tree_prune_stat
 
 m_data = clear_data(load("./mushroom.txt"))
+
 for i in range(len(m_data)):
     f, l = m_data[i][0], m_data[i][-1]
     m_data[i][0] = l
